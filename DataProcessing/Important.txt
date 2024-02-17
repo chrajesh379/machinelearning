@@ -1,0 +1,13 @@
+Feature are called independent variables
+
+Independent Variables: 
+    The variable that are not affected by the other variables are called independent variables. For example age of a person, is an independent variable, two person’s born on same date will have same age irrespective of how they lived. We presume that while independent variables are stable and cannot be manipulated by some other variable, they might cause a change in other variables,
+Dependent Variables: 
+   The variables which depend on other variables or factors. We expect these variables to change when the independent variables, upon whom they depend, undergo a change. They are the presumed effect. For example let us say you have a test tomorrow, then, your test score is dependent upon the amount of time you studied, so the test score is a dependent variable, and amount of time independent variable in this case.
+
+with the help of independet variable we will predict dependant variables
+
+Feature scaling
+Feature scaling needs to be after the data is split into Tranining and Test data set
+Because while doing feature scaling we shouldn't include test data into consideration , as it will cause information leakage.
+The primary reason we split before scaling is to prevent data leakage. Data leakage happens when information from outside the training dataset is used to create the model
