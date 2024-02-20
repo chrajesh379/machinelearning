@@ -7,7 +7,8 @@ Dependent Variables:
 
 with the help of independet variable we will predict dependant variables
 
-Feature scaling
+Feature scaling:
+Feature scaling is a method used to normalize the range of independent variables or features of data. In data processing, it is also known as data normalization and is generally performed during the data preprocessing step
 Feature scaling needs to be after the data is split into Tranining and Test data set
 Because while doing feature scaling we shouldn't include test data into consideration , as it will cause information leakage.
 The primary reason we split before scaling is to prevent data leakage. Data leakage happens when information from outside the training dataset is used to create the model
