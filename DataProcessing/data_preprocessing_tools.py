@@ -12,6 +12,8 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
+import statistics
+
 
 #--------------------------------------
 print("-----------------------------pima-indians-diabetes-database start------------------------------")
@@ -120,9 +122,30 @@ print(X_test)
 print(y_train)
 print(y_test)
 
+age = X_train[:, 3]
+sal = X_train[:, 4]
+print("--------------------age---------")
+print(age)
+print("--------------------sal---------")
+print(sal)
+
+print("Mean of the age sample is % s " %(statistics.mean(age)))
+print("Mean of the sal sample is % s " %(statistics.mean(sal)))
+print("Standard Deviation of the age sample is % s "%(statistics.stdev(age)))
+print("Standard Deviation of the sal sample is % s "%(statistics.stdev(sal)))
+
+
+
 scaler = StandardScaler()
-X_train = scaler.fit_transform(X_train)
-X_test = scaler.transform(X_test)
+# We will not apply the feature scaling for Dummay variables.
+# Because dummary variables are already in range and those are normalized format
+# fit methond will calcuate mean and standard deviation
+# transfrom method will apply the mean and standard devition to the dataset and will generate the new values
+X_train[:, 3:] = scaler.fit_transform(X_train[:, 3:])
+X_test[:, 3:] = scaler.transform(X_test[:, 3:])
+
+print(X_train)
+print(X_test)
 
 print("-----------------------------------------------------------------")
 print("-----------------------------------Data csv End---------------")
