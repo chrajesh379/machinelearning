@@ -26,3 +26,5 @@ Feature scaling:
     Standardization: After the Standardization feature values will be range from -3 to +3 . xstandrd = (x-mean(x))/(standard deviation(x))
     Normalization:  After the Normalization feature values will be range from 0 to 1. xnorm = (x-min(x))/(max(x)-min(x))
     Most of the cases we will use Standardization scaling Technique.
+
+    We will not apply the feature scaling for Dummay variables.Because dummary variables are already in range and those are normalized format
