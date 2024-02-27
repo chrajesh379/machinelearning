@@ -10,6 +10,8 @@ from sklearn.impute import SimpleImputer
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.preprocessing import LabelEncoder
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
 
 #--------------------------------------
 print("-----------------------------pima-indians-diabetes-database start------------------------------")
@@ -65,6 +67,8 @@ print(y)
 
 print("-----------------------------------titanic csv End---------------")
 
+print("-----------------------------------------------------------------")
+print("-----------------------------------Data csv Start---------------")
 dataset = pd.read_csv("Data.csv")
 #https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.iloc.html#pandas.DataFrame.iloc
 #dataframe.iloc[row, column]
@@ -102,3 +106,23 @@ y=le.fit_transform(y)
 print(X)
 print(y)
 print(type(X))
+
+# Feature scaling needs to be after the data is split into Tranining and Test data set
+# Because while doing feature scaling we shouldn't include test data into consideration , as it will cause information leakage.
+# The primary reason we split before scaling is to prevent data leakage. Data leakage happens when information from outside the training dataset is used to create the model
+
+# RandomState instance or None, default=None
+# Controls the shuffling applied to the data before applying the split. Pass an int for reproducible output across multiple function calls.
+
+X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=0.2,random_state=1)
+print(X_train)
+print(X_test)
+print(y_train)
+print(y_test)
+
+scaler = StandardScaler()
+X_train = scaler.fit_transform(X_train)
+X_test = scaler.transform(X_test)
+
+print("-----------------------------------------------------------------")
+print("-----------------------------------Data csv End---------------")
