@@ -28,3 +28,15 @@ Feature scaling:
     Most of the cases we will use Standardization scaling Technique.
 
     We will not apply the feature scaling for Dummay variables.Because dummary variables are already in range and those are normalized format
+
+Mean:
+    Sum of all the elements / total elements
+    mean = sum(data)/len(data)
+
+Standard Deviation:
+    is a measure of the amount of variation or dispersion of a set of value
+    
+    deviations = [ (i-mean) ** 2 for i in data]
+    varience = sum(deviations)/len(data)
+    std_dev = math.sqrt(varience)
+
