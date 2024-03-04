@@ -1,0 +1,11 @@
+Simple Linear Regression
+  y^ = b0+b1*X1
+  y^ is dependant variable
+  X1 is independant variable
+  b0 is y-intercept(constant)
+  b1 is slope coefficent
+Ex: Predcting output of potataos in the farm based on the amount of Nutrozen fertiliser used
+  pototas = b0+b1*Fertilizer[kg]
+  b0 = 8tons
+  b1 = 3tons/kg ( If you increase of Nitrozen fertilizer 1 kg then the potatatos will increase 3 tons)
+  
