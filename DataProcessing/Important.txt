@@ -40,3 +40,6 @@ Standard Deviation:
     varience = sum(deviations)/len(data)
     std_dev = math.sqrt(varience)
 
+Fit and Transform:
+   Ex: The fit of an imputer has nothing to do with fit used in model fitting. So using imputer's fit on training data just calculates means of each column of 
+   training data. Using transform on test data then replaces missing values of test data with means that were calculated from training data
