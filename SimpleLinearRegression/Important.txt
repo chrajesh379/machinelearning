@@ -1,4 +1,8 @@
-Simple Linear Regression
+Simple Linear Regression:
+  Estabilish a relationship between two variables . 
+  Postitive relationship -> If one increses other variable values increases
+  Negative relationship -> If one decreases other variables values increases
+  (https://www.youtube.com/watch?v=owI7zxCqNY0) 
   y^ = b0+b1*X1
   y^ is dependant variable
   X1 is independant variable
