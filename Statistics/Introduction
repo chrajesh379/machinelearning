@@ -16,3 +16,20 @@ Sampling will have multiple techiniques.
   3. Systematics Sampling: Nth individual. Ex: Taking the survey for every 8th person.
   4. Convience Sampling : Only those people who are expert speficic to that domain 
   5. 
+Variables:
+Quantitative variables: These are like numarical variables. 
+  1. Descrte variables: Ex: Number of childeren, number of bank accounts etc: We will not have floating values.
+  2. Continuis variables: Ex: Height, Weight , Tempature  etc.
+Categorical variables:
+  Ex: Gender, states etc
+Variable manage techniques:
+  1. Nominal Data : Categorical data
+  2. oridnal Data : Order of the data is the matters
+  3. Interval Dara: Order and values matters
+
+Frequencey Distribution:
+Sample Data sets : Rose, lilly,sunflower, rose, lilly, sunflower, lilly,rose, lilly
+Rose: 3
+Lilly - 4
+Sunflower : 2
+Cumative is 3+4+2 =9 
