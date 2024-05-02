@@ -18,14 +18,14 @@ Sampling will have multiple techiniques.
   5. 
 Variables:
 Quantitative variables: These are like numarical variables. 
-  1. Descrte variables: Ex: Number of childeren, number of bank accounts etc: We will not have floating values.
-  2. Continuis variables: Ex: Height, Weight , Tempature  etc.
+  1. Descrete variables: Ex: Number of childeren, number of bank accounts etc: We will not have floating values.
+  2. Continuous variables: Ex: Height, Weight , Tempature  etc.
 Categorical variables:
   Ex: Gender, states etc
 Variable manage techniques:
   1. Nominal Data : Categorical data
   2. oridnal Data : Order of the data is the matters
-  3. Interval Dara: Order and values matters
+  3. Interval Data: Order and values matters
 
 Frequencey Distribution:
 Sample Data sets : Rose, lilly,sunflower, rose, lilly, sunflower, lilly,rose, lilly
@@ -42,6 +42,14 @@ It refers to the measure used to dentermine the center of the distribution of th
   Mean is the average 
   Median is the central value after sorting the dataset. If the dataset is even, then its avg of those two values
   Mode is most frequent element in the data
-  
-  
+
+Measure of Dispersion:
+Dispersion means spred
+  Variance: If we need to identify how two distributions are different even though mean is same 
+    Ex: d1={1,1,2,2,4} mean = 10/5 =2
+        d2={2,2,2,2,2} mean = 10/5 =2
+    
+    Population Variance  : (Sum of (xi - mean)square)/ N
+    and Sample Variance 
+  If the variance is more then, data is more distributed.
 
