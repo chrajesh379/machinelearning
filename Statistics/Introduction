@@ -52,4 +52,7 @@ Dispersion means spred
     Population Variance  : (Sum of (xi - mean)square)/ N
     and Sample Variance 
   If the variance is more then, data is more distributed.
+Standard Deviation : SQRT of Variance.
+From mean, one strd deviation right or left called one standard deviation
+
 
