@@ -55,4 +55,18 @@ Dispersion means spred
 Standard Deviation : SQRT of Variance.
 From mean, one strd deviation right or left called one standard deviation
 
+Percentaile and Quartiles:
+Percentalie: It is a value below which a certain percentage of observation lie
+Ex: Data set = 2,2,3,4,5,5,5,6,7,8
+Percentile rank of 6 is = (number of values below x/n)*100
+x is the number
+n is the total 
+= (7/10)*100 = 70%
+means 70% of entire distribution is less than 6  
 
+What value exists at percentalie ranking of 25% 
+Formula : value_postition = (percentaile/100)*(n+1)
+          value_position = (25/100)*11 = 2.75
+          value = (2+3)/2 = 2.5 is value of 25 percentaile 
+
+Five Number Summary:
